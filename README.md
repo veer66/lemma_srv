@@ -11,7 +11,7 @@ docker build -t lemmasrv .
 ## Run
 
 ```
-docker run --host=net lemmasrv
+docker run -d --net=host lemmasrv
 ```
 
 ## Try
